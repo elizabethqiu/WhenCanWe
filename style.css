@@ -1,0 +1,80 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  }
+  
+h2 {
+  color: #B95C3B;
+}
+
+h3{
+  color: #000000;
+}
+
+h5{
+  color: #000000;
+}
+
+/* Home section */
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.section-home{
+  background-color: #FFFFFF;
+}
+
+.section-useit{
+  background-color: #F5F5DC;
+}
+
+.footer {
+  background-color: #B95C3B;
+}
+
+/* Contact section */
+.section-contactus{
+  background-color: #F6906C;
+}
+
+.button{
+  color: #F5F5DC;
+  border: 2px solid #B95C3B;
+  text-align: left;
+  font-size: 10px;
+  border-radius: 10px;
+}
+
+.section-aboutus {
+  background-color: #FFC7A0;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img__description {
+  position: relative;
+  top: 100;
+  bottom: 100;
+  left: 0;
+  right: 100;
+  background: #F6906C;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.section-aboutus:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.aboutUsText{
+  display: flex;
+  flex-direction: column;
+}

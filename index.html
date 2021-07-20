@@ -1,0 +1,85 @@
+<!-- Minimal action steps by End of Day:
+👍 Wireframe/protype of your site
+👍 Color palette/fonts/style choosing
+👍 Open up a collaborative repl that all your group members can work on at the same time if you have not already
+Next steps after:
+- Begin coding HTML and CSS
+- Delegate clear next steps to each group member for tonight 
+Elizabeth: Hero Section
+Figma: https://www.figma.com/file/bPd90XRuQedrofA4PZeutD/KWK-2021-Project-Wireframe-Group-4-Elizabeth-Mouni-Fehintolu-Kate?node-id=3%3A2
+-->
+
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="description" content="WhenCanWe">
+<meta name="author" content="Elizabeth, Mouni, Kate, Fehintolu">
+<meta name="viewport" content="width=device-width", initial-scale=1.0">
+<html>
+  <head>
+    <title>WhenCanWe!</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Hero Section (home) -->
+    <div class="section-home" id="home">
+      <img class="logo" src="images/wcw-logo.svg" alt="WhenCanWe! Logo">
+      <section class="menu">
+        <a href="#home"><article class="menu-home">Home</article></a>
+        <a href="#useit"><article class="menu-useit">Use it</article></a>
+        <a href="#aboutus"><article class="menu-aboutus">About us</article></a>
+        <a href="contactus"><article class="menu-contactus">Contact us</article></a>
+      </section>
+      <h1>WhenCanWe!</h1>
+      <h3>a hassle-free site for scheduling meetings</h3>
+      <img src="images/chevron-left.svg" alt="chevron-left"/>
+      <img src="images/chevron-right.svg" alt="chevron-right"/>
+      <section class="dot">
+        <article class="dot-1"><span class="dot-1"></span></article>
+        <article class="dot-2"><span class="dot-2"></span></article>
+        <article class="dot-3"><span class="dot-3"></span></article>
+      </section>
+    </div>
+   
+    <!-- Use it -->
+    <div class="section-useit" id="useit">
+      <h2>Use it</h2>
+     <input class="name-input" placeholder="First and Last Name" type="text">
+     <input class="date-input" placeholder="What date are you available?" type="date">
+     <h3> What time(s) are you available? Click/drag through all that apply. All times are in ET.</h3> 
+    </div>
+     
+    <!-- About us -->
+    <div class="section-aboutus" id="aboutus">
+      <div class= "aboutUsText">
+        <h2>About us</h2>
+        <h3>Meet the developers behind WhenCanWe!</h3>
+      </div>
+      <img class="team" src="images/elizabeth.svg" alt="Elizabeth"> 
+      <p class="img__description">Hover for bio!</p>
+      <img class="team" src="images/mouni.svg" alt="Mouni">
+      <img class="team" src="images/fehintolu.svg" alt="Fehintolu">
+      <img class="team" src="images/kate.svg" alt="Kate">
+    </div>
+
+    <!-- Contact us -->
+    <div class="section-contactus" id="contactus">
+      <h2> Contact Us </h2>
+      <h5> Send us a messsage <h5>
+      <input class="name-input" placeholder="First and Last Name" type="text"> <br><br>
+      <input class="email-input" placeholder="Email Address" type="email"> <br><br>
+      <input class="message-input" placeholder="Message" type="text"> <br><br>
+      <!--<form action="">-->
+      <button type="button">Submit!</button>
+      <!--</form>-->
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <h3><i>© 2021 WhenCanWe!. All rights reserved.</i></h3>
+    </div>
+  </body>
+</html>
