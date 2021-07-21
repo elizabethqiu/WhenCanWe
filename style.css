@@ -1,13 +1,22 @@
+
 * {
   font-family: 'Roboto', sans-serif;
-  }
-  
+  margin: 0;
+  padding: 0;
+  } 
+
+body {
+  background-color: #ffffff;
+}
+
 h2 {
   color: #B95C3B;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 h3{
-  color: #000000;
+  color: #F6906C;
 }
 
 h5{
@@ -37,23 +46,72 @@ h5{
   border-radius: 50%;
   display: inline-block;
 }
+
+a{
+  color: #B95C3B
+}
+a:hover {
+  color: #FFC7A0;
+}
+a:link {
+  text-decoration: none;
+}
+
 /* learn: conditional css? like when it clicks, it should be a different color (menu bar, home section dots, selecting available times)*/
 
 .section-home{
-  background-color: #FFFFFF;
+  background: #FFFFFF;
+  margin: 0px;
+  /* width: 1980px;
+  height: 660px; */
 }
 
 .section-useit{
-  background-color: #F5F5DC;
-}
-
-.footer {
-  background-color: #B95C3B;
+  background: #F5F5DC;
+  background-position: right-top;
+  margin: 0px;
+  /* width: 1700px;
+  height: 600px; */
 }
 
 /* Contact section */
 .section-contactus{
-  background-color: #F6906C;
+background-color: #F6906C;
+margin: 0px;
+/* width: 1700px;
+height: 350px; */
+}
+
+/* Footer section */
+.footer {
+  background-color: #B95C3B;
+  margin: 0px;
+  /* width: 1700px;
+  height: 50px; */
+}
+
+.name-input{
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.date-input{
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.email-input{
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.message-input{  
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+h5{
+  color: white;
 }
 
 .button{
@@ -62,21 +120,29 @@ h5{
   text-align: left;
   font-size: 10px;
   border-radius: 10px;
+  color: #FFFFFF;
 }
+/* end contact section */
 
 .section-aboutus {
   background-color: #FFC7A0;
   position: relative;
   display: flex;
   justify-content: space-evenly;
+  /* width: 1700px;
+  height: 350px; */
 }
 
 .img-description {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  /* position: relative;
   top: 100;
   bottom: 100;
   left: 50;
-  right: 50;
+  right: 50; */
   background: #F6906C;
   color: #fff;
   visibility: hidden;
@@ -93,4 +159,33 @@ h5{
 .aboutUsText{
   display: flex;
   flex-direction: column;
+}
+
+
+menu{
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F5F5DC;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #B95C3B;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #F5F5DC;
 }
