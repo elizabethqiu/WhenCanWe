@@ -13,22 +13,23 @@
     <script src="script.js"></script>
   </head>
   <body>
+
     <!-- Hero Section (home) -->
     
     <div class="section-home" id="home">
       <img class="logo" src="images/wcw-logo.svg" alt="WhenCanWe! Logo">
       <section class="menu">
-      <ul>
+      <!-- <ul>
        <li> <a href="#home"><article class="menu-home">Home</article></a></li>
        <li> <a href="#useit"><article class="menu-useit">Use it</article></a></li>
         <li><a href="#aboutus"><article class="menu-aboutus">About us</article></a></li>
         <li><a href="#contactus"><article class="menu-contactus">Contact us</article></a></li>
-        </ul>
+      </ul> -->
       </section>
       <h1>WhenCanWe!</h1>
       <h3>a hassle-free site for scheduling meetings</h3>
       <img src="images/chevron-left.svg" alt="chevron-left"/>
-      <img src="images/chevron-right.svg" alt="chevron-right"/>
+      <img src="images/chevron-right.svg" alt="chevron-right"/> 
       <section class="dot">
         <article class="dot-1"><span class="dot-1"></span></article>
         <article class="dot-2"><span class="dot-2"></span></article>
@@ -47,14 +48,19 @@
     <!-- About us -->
     <div class="section-aboutus" id="aboutus">
       <div class= "aboutUsText">
-        <h2>About us</h2>
-        <h3>Meet the developers behind WhenCanWe!</h3>
-      </div>
-      <img class="team" src="images/elizabeth.svg" alt="Elizabeth"> 
-      <p class="img-description">Hover for bio!</p>
-      <img class="team" src="images/mouni.svg" alt="Mouni">
-      <img class="team" src="images/fehintolu.svg" alt="Fehintolu">
-      <img class="team" src="images/kate.svg" alt="Kate">
+          <h2>About us</h2>
+          <h3>Meet the developers behind WhenCanWe!</h3>
+        </div>
+        <div class ="bios">
+          <img class="team" src="images/elizabeth.svg" alt="Elizabeth" width = "85">
+          <div class="overlay">
+          <p class="img-description">Hover for Elizabeth bio!</p>
+
+          <img class="Mteam" src="images/mouni.svg" alt="Mouni" width = "85">
+          <!-- <p class="img-description">Hover for Mouni bio!</p> -->
+          <img class="team" src="images/fehintolu.svg" alt="Fehintolu" width = "85">
+          <img class="team" src="images/kate.svg" alt="Kate" width = "85">
+        </div>
     </div>
 
     <!-- Contact us -->
@@ -65,7 +71,14 @@
       <input class="email-input" placeholder="Email Address" type="email"> <br></br>
       <input class="message-input" placeholder="Message" type="text"><br></br>
       <!--<form action="">-->
-      <button type="button">Submit!</button>
+      <button onclick="myFunction()">Submit!</button>
+      <script>
+        function
+
+
+
+
+
       <!--</form>-->
       <h5>(800)-CAN-MEET </h5>
       <h5> whencanwemeet@gmail.com </h5>
@@ -73,7 +86,7 @@
 
     <!-- Footer -->
     <div class="footer">
-      <h3><i>© 2021 WhenCanWe!. All rights reserved.</i></h3>
+      <center><h3><i>© 2021 WhenCanWe!. All rights reserved.</i></h3></center>
     </div>
   </body>
 </html>

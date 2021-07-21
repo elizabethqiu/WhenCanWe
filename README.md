@@ -22,8 +22,18 @@ Day 4:
 - [x] Begin coding HTML/CSS
 - [x] Delegate clear next steps to each group member for tonight  
 
-Day 5:
-- TBD  
+Day 5: 
+TEAM GOALS
+- Nav bar
+- Basic HTML frame
+- CSS styling for home page
+
+- Home section: slideshow (div) - Elizabeth  
+
+CHANGES  
+- Use it section: instead of using JS to find best time, have users figure out themselves with CSS (color key, i.e.: darker = everyone more available)
+- On submit: instead of switching to new tab, just clear form and pop up "Thank you for the message!" (don't actually receive/store messages)
+- Maybe hover for team bios can be changed? Or have "on click" -> bio appear. Or just not have bios at all
 
 Day 6:
 - TBD
