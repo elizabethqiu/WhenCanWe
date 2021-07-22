@@ -7,6 +7,7 @@
 
 body {
   background-color: #ffffff;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 /* .title{
@@ -63,12 +64,14 @@ h3{
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background: #B95C3B;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  
 }
 
 /* On hover, add black background color */
@@ -184,6 +187,49 @@ h3{
   height: 32px;
 }
 
+/* use it times */
+/* [type="checkbox"]{
+  width: 0;
+  height: 0;
+} */
+
+.timesAM{
+  background-color: #F6906C;
+  width:1000px;
+  height:30px;
+  border: 2px solid #B95C3B;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.timesPM{
+  background-color: #F6906C;
+  width:1000px;
+  height:30px;
+  border: 2px solid #B95C3B;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.digits{
+  color: #FFC7A0;
+  width: 50px;
+  height:25px;
+  margin: 17px;
+  display: flex;
+  justify-content: center;
+}
+
+.digits:hover{
+  color: #FFFFFF;
+  width: 50px;
+  height:25px;
+}
+
+
+
 /* end use it */
 
 a {
@@ -266,20 +312,6 @@ input {
   color: #FFFFFF;
 }
 
-/* .date-input {
-  border-radius: 10px;
-  color: #FFFFFF;
-}
-
-.email-input {
-  border-radius: 10px;
-  color: #FFFFFF;
-}
-
-.message-input {  
-  border-radius: 10px;
-  color: #FFFFFF;
-} */
 
 h5 {
   color: white;
@@ -298,67 +330,30 @@ h5 {
 .section-aboutus {
   background-color: #FFC7A0;
   height: 250px; 
+
 }
 
-.containerForBios{
-  color: black;
-}
 
 .aboutUsText{
 text-align: center;
 margin-bottom: 20px;
+font-family: 'Roboto', sans-serif;
 }
 
 .bios{
   display:flex;
   justify-content: space-evenly;
-}
-.break {
-  flex-basis: 100%;
-  height: 0;
-}
-/* .img-description {
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  background: #F6906C;
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .2s, visibility .2s;
+  margin-left: 400px;
+   margin-right: 400px;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-} */
-
-/* .Eteam:hover .img-description {
-  visibility: visible;
-  opacity: 1;
+.bioText{
+  text-align: center;
+  color: #B95C3B;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
-
-.Mteam:hover .img-description {
-  visibility: visible;
-  opacity: 1;
-} */
-
-/* .team:hover .overlay {
-  opacity: 1;
-}
-
-.aboutUsText{
-  display: flex;
-  flex-direction: column;
-} */
 
 
 menu{
@@ -406,3 +401,4 @@ li a:hover {
 .logo {
   text-align: left;
 }
+

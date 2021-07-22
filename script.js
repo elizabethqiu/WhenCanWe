@@ -32,34 +32,30 @@ function showSlides(n) {
 // ✨ End of slideshow home section
 
 
-var button1 = $('.elizabethTeam');
-var button2 = $('.mouniTeam');
-var button3 = $('.fehintoluTeam');
-var button4 = $('.kateTeam');
 
 
 
-var button = $('.team');
-var text = $('.bioText');
-
-console.log(button1);
-
-//button1.on("click", hoverForBio("click")); 
+var bioText = $('.bioText');
 
 function hoverForBioElizabeth(event){
-  // event.preventDefault();
-  console.log("in function");
-  text.text("hover for bi0")
-  
+  bioText.text("Hey! My name is Elizabeth and I’m a high school senior from Maryland who loves music, code, running, and productivity");
 }
 
+function hoverForBioMouni(event){
+  bioText.text("Hello! My name is Mouni and I’m a high school senior from Virginia who loves to listen to music, spend time with friends, and cook!");
+}
 
-// button.on("click", hoverForBio("click")); //mouseover
+function hoverForBioFehintolu(event){
+  bioText.text("Hey! My name is Fehintolu. I am 17 years and an upcoming senior from Maryland who likes web development!");
+}
 
-// function hoverForBio(event){
-//   // event.preventDefault();
-//   console.log("in function");
-//   container.append(`<h2>Hover For Bio!!!</h2>`);
-// }
+function hoverForBioKate(event){
+  bioText.text("Hi! My name is Kate and I am a rising freshman in college. I love staying active and reading on the beach :)");
+}
+
+function resetBio(event){
+  bioText.text("");
+}
+
 
 // https://www.uuidgenerator.net/ --> append like 500 of these into an array for unique link generator
