@@ -24,16 +24,17 @@ Day 4:
 
 Day 5: 
 TEAM GOALS
-- Nav bar
-- Basic HTML frame
+- [x] Nav bar
+- [x] Basic HTML frame
 - CSS styling for home page
 
 - Home section: slideshow (div) - Elizabeth  
-
+<!-- //https://www.w3schools.com/howto/howto_js_slideshow.asp [resource for slideshow/testimonials]  --> 
 CHANGES  
 - Use it section: instead of using JS to find best time, have users figure out themselves with CSS (color key, i.e.: darker = everyone more available)
-- On submit: instead of switching to new tab, just clear form and pop up "Thank you for the message!" (don't actually receive/store messages)
+<!-- - On submit: instead of switching to new tab, just clear form and pop up "Thank you for the message!" (don't actually receive/store messages) tried it on lines 80-87 but isnt working for some reason -->
 - Maybe hover for team bios can be changed? Or have "on click" -> bio appear. Or just not have bios at all
+- Other cool addtl feature if time: https://getbootstrap.com/docs/5.0/components/accordion/
 
 Day 6:
 - TBD

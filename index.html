@@ -2,90 +2,116 @@
 <meta charset="UTF-8">
 <meta name="description" content="WhenCanWe">
 <meta name="author" content="Elizabeth, Mouni, Kate, Fehintolu">
-<meta name="viewport" content="width=device-width", initial-scale=1.0">
+<meta name="viewport" content="width=device-width" , initial-scale=1.0 ">
 <html>
   <head>
     <title>WhenCanWe!</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
+    <link rel="stylesheet " href="style.css " type="text/css "/>
+    <link rel="preconnect " href="https://fonts.googleapis.com ">
+    <link rel="preconnect " href="https://fonts.gstatic.com " crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap " rel="stylesheet ">
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js "></script>
+		<script src="/script.js" defer></script>
   </head>
+
+  
   <body>
 
     <!-- Hero Section (home) -->
     
-    <div class="section-home" id="home">
-      <img class="logo" src="images/wcw-logo.svg" alt="WhenCanWe! Logo">
-      <section class="menu">
-      <!-- <ul>
-       <li> <a href="#home"><article class="menu-home">Home</article></a></li>
-       <li> <a href="#useit"><article class="menu-useit">Use it</article></a></li>
-        <li><a href="#aboutus"><article class="menu-aboutus">About us</article></a></li>
-        <li><a href="#contactus"><article class="menu-contactus">Contact us</article></a></li>
-      </ul> -->
+    <div class="section-home " id="home ">
+      <div class="nav-and-logo">
+
+    <div>    
+      <section class="menu ">
+			<!-- <center> -->
+    <nav>
+      <br> 
+      <img class="logo " src="images/wcw-logo.svg " alt="WhenCanWe! Logo " width = "125 ">
+      <ul>
+       <li> <a href="#home "><article class="menu-home ">Home</article></a></li>
+       <li> <a href="#useit "><article class="menu-useit ">Use it</article></a></li>
+        <li><a href="#aboutus "><article class="menu-aboutus ">About us</article></a></li>
+        <li><a href="#contactus "><article class="menu-contactus ">Contact us</article></a></li>
+      </ul>
+    </nav>
+    </div>
+
+		<!-- </center> -->
+      <div>
       </section>
       <h1>WhenCanWe!</h1>
       <h3>a hassle-free site for scheduling meetings</h3>
-      <img src="images/chevron-left.svg" alt="chevron-left"/>
-      <img src="images/chevron-right.svg" alt="chevron-right"/> 
-      <section class="dot">
-        <article class="dot-1"><span class="dot-1"></span></article>
-        <article class="dot-2"><span class="dot-2"></span></article>
-        <article class="dot-3"><span class="dot-3"></span></article>
+      <img class="chevron-left" src="images/chevron-left.svg " alt="chevron-left "/>
+      <img class="chevron-right" src="images/chevron-right.svg " alt="chevron-right "/> 
+      <section class="dot ">
+        <article class="dot-1 "><span class="dot-1 "></span></article>
+        <article class="dot-2 "><span class="dot-2 "></span></article>
+        <article class="dot-3 "><span class="dot-3 "></span></article>
       </section>
     </div>
   
     <!-- Use it -->
-    <div class="section-useit" id="useit">
+    <div class="section-useit " id="useit ">
       <h2>Use it</h2>
-     <input class="name-input" placeholder="First and Last Name" type="text">
-     <input class="date-input" placeholder="What date are you available?" type="date">
+     <input class="name-input " placeholder="First and Last Name " type="text ">
+     <input class="date-input " placeholder="What date are you available? " type="date ">
      <h3> What time(s) are you available? Click/drag through all that apply. All times are in ET.</h3> 
     </div>
      
     <!-- About us -->
     <div class="section-aboutus" id="aboutus">
-      <div class= "aboutUsText">
-          <h2>About us</h2>
-          <h3>Meet the developers behind WhenCanWe!</h3>
-        </div>
-        <div class ="bios">
-          <img class="team" src="images/elizabeth.svg" alt="Elizabeth" width = "85">
-          <div class="overlay">
-          <p class="img-description">Hover for Elizabeth bio!</p>
 
-          <img class="Mteam" src="images/mouni.svg" alt="Mouni" width = "85">
-          <!-- <p class="img-description">Hover for Mouni bio!</p> -->
-          <img class="team" src="images/fehintolu.svg" alt="Fehintolu" width = "85">
-          <img class="team" src="images/kate.svg" alt="Kate" width = "85">
-        </div>
+      <div class= "aboutUsText">
+       <h2>About us</h2>
+        <h3>Meet the developers behind WhenCanWe!</h3>
+      </div>
+      
+      <div class ="bios ">
+          <img class="team " src="images/elizabeth.svg " alt="Elizabeth " width = "85 ">
+      </div> 
+
+          <div class="overlay ">
+          <p class="img-description ">Hover for Elizabeth bio!</p>
+          </div>
+
+          <img class="Mteam " src="images/mouni.svg " alt="Mouni " width = "85 ">
+           <p class="img-description ">Hover for Mouni bio!</p>
+          <img class="team " src="images/fehintolu.svg " alt="Fehintolu " width = "85 ">
+          <img class="team " src="images/kate.svg " alt="Kate " width = "85 ">
+
     </div>
 
     <!-- Contact us -->
     <div class="section-contactus" id="contactus">
       <h2>Contact Us</h2>
       <i><h5>Send us a messsage<h5></i>
-      <input class="name-input" placeholder="First and Last Name" type="text"> <br></br>
-      <input class="email-input" placeholder="Email Address" type="email"> <br></br>
-      <input class="message-input" placeholder="Message" type="text"><br></br>
-      <!--<form action="">-->
-      <button onclick="myFunction()">Submit!</button>
-      <script>
-        function
+      
+      <form>
+      <input class="name-input" type="text" placeholder="First and Last Name"> <br><br> 
+      <input class="email-input" placeholder="Email Address" type="email"> <br><br>
+      <input class="message-input" type="text" placeholder="Message">
+      </form> <br>
+      
+      <!--<form action=" ">-->
+<button onclick="myFunction()">Submit!</button>
+<p id="demo"></p>
+<br>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Thank you so much for contacting us, we will take your response into account!";
+}
+</script>
 
-
-
-
+<h5>(800)-CAN-MEET </h5>
+      <h5><a href="mailto:whencanwemeet@gmail.com">whencanwemeet@gmail.com</a></h5>
+  </div>
 
       <!--</form>-->
-      <h5>(800)-CAN-MEET </h5>
-      <h5> whencanwemeet@gmail.com </h5>
-    </div>
+      
 
     <!-- Footer -->
-    <div class="footer">
+    <div class="footer ">
       <center><h3><i>© 2021 WhenCanWe!. All rights reserved.</i></h3></center>
     </div>
   </body>
