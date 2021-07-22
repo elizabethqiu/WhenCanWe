@@ -9,11 +9,19 @@ body {
   background-color: #ffffff;
 }
 
+/* .title{
+  font-style: italic;
+  color: #B95C3B;
+  font-size: 30px;
+  text-shadow: 2px 2px black; 
+} */
+
 h2 {
   color: #B95C3B;
   font-weight: bold;
   font-size: 25px;
   text-align: center;
+
 
 }
 
@@ -21,30 +29,124 @@ h3{
   color: #F6906C;
 }
 
-h5{
-  color: #000000;
+
+
+/* 😌 HOME SECTION 😌 */
+/* ✨ Beginning of slideshow home section */
+* {box-sizing: 
+  border-box;
 }
 
-/* Home section */
-.chevron-left {
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add black background color */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #FFC7A0;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #B95C3B;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.0s;
+  animation-name: fade;
+  animation-duration: 1.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* ✨ End of slideshow home section */
+
+/* .chevron-left {
   margin-top: 100px;
   margin-left: 15px;
   margin-right: 500px;
-  /* margin-bottom: 1000px; */
 }
 .chevron-right {
-  margin-top: 100px;
-  margin-left: 1500px; /* 1920 x 1080px? */
+  margin-top: 0px;
+  margin-left: 1300px;
   margin-right: 15px;
-  /* margin-bottom: 1000px; */
 }
 .dot-1 {
-  height: 22px; /*ELIZABETH TODO: MARGIN AND PADDING FOR DOTS AND ON CLICK*/
+  height: 22px; ELIZABETH TODO: MARGIN AND PADDING FOR DOTS AND ON CLICK
   width: 22px;
   background-color: #B95C3B;
   border-radius: 50%;
   display: inline-block;
-  /*add padding*/
 }
 .dot-2 {
   height: 22px;
@@ -59,7 +161,30 @@ h5{
   background-color: #FFC7A0;
   border-radius: 50%;
   display: inline-block;
+} */
+
+/* use it */
+.nameuser-input{
+  background-color: #F6906C;
+  border: 1px solid #B95C3B;
+  border-radius: 37px;
+  text-align: center;
+  color: #FFC7A0;
+  width: 150px;
+  height: 29px;
 }
+
+.date-input{
+  background-color: #F6906C;
+  border: 1px solid #B95C3B;
+  border-radius: 37px;
+  text-align: center;
+  color: #FFC7A0;
+  width: 195px;
+  height: 32px;
+}
+
+/* end use it */
 
 a {
   color: #B95C3B;
@@ -90,10 +215,41 @@ a:link {
 
 /* Contact section */
 .section-contactus {
-background-color: #F6906C;
+background-color: #F6906C;  
 margin: 0px;
 /* width: 1700px;
 height: 350px; */
+}
+
+.name-input{
+background-color: #F5F5DC;
+border: 1px solid #B95C3B;
+color:#F6906C;
+border-radius: 20px;
+width: 181px;
+height: 20px;
+justify-content: flex-left;
+}
+
+.email-input{
+background-color: #F5F5DC;
+border: 1px solid #B95C3B;
+border-radius: 20px;
+width: 181px;
+height: 20px;
+justify-content: flex-left;
+color:#F6906C;
+
+}
+
+.message-input{
+background-color: #F5F5DC;
+border: 1px solid #B95C3B;
+border-radius: 20px;
+width: 190px;
+height: 100px;
+justify-content: flex-left;
+color:#F6906C;
 }
 
 
@@ -141,16 +297,27 @@ h5 {
 
 .section-aboutus {
   background-color: #FFC7A0;
-  position: relative;
-  display: flex;
-  justify-content: space-evenly;
-  /* margin-top: 5px;
-  margin-bottom: 5px; 
-  width: 1700px; */
   height: 250px; 
 }
 
-.img-description {
+.containerForBios{
+  color: black;
+}
+
+.aboutUsText{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.bios{
+  display:flex;
+  justify-content: space-evenly;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+/* .img-description {
   position: absolute;
   top: 50%;
   left: 0%;
@@ -172,7 +339,7 @@ h5 {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
-}
+} */
 
 /* .Eteam:hover .img-description {
   visibility: visible;
@@ -184,14 +351,14 @@ h5 {
   opacity: 1;
 } */
 
-.team:hover .overlay {
+/* .team:hover .overlay {
   opacity: 1;
 }
 
 .aboutUsText{
   display: flex;
   flex-direction: column;
-}
+} */
 
 
 menu{
