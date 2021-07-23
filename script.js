@@ -38,15 +38,15 @@ function showSlides(n) {
 var bioText = $('.bioText');
 
 function hoverForBioElizabeth(event){
-  bioText.text("Hey! My name is Elizabeth and I’m a high school senior from Maryland who loves music, code, running, and productivity");
+  bioText.text("Hey! My name is Elizabeth and I’m a high school senior from Maryland who loves music, code, running, and productivity :)");
 }
 
 function hoverForBioMouni(event){
-  bioText.text("Hello! My name is Mouni and I’m a high school senior from Virginia who loves to listen to music, spend time with friends, and cook!");
+  bioText.text("Hello! My name is Mouni and I’m a rising senior from Virginia who loves to listen to music, spend time with friends, and bake!");
 }
 
 function hoverForBioFehintolu(event){
-  bioText.text("Hey! My name is Fehintolu. I am 17 years and an upcoming senior from Maryland who likes web development!");
+  bioText.text("Hey! My name is Fehintolu. I am 17 years old and an upcoming senior from Maryland who likes web development!");
 }
 
 function hoverForBioKate(event){
@@ -59,3 +59,133 @@ function resetBio(event){
 
 
 // https://www.uuidgenerator.net/ --> append like 500 of these into an array for unique link generator
+
+
+
+// use it section
+
+var seven = $('.seven');
+var sevenThirty = $('.seven-thirty');
+var eight = $('.eight');
+var eightThirty = $('.eight-thirty');
+var nine = $('.nine');
+var nineThirty = $('.nine-thirty');
+var ten = $('.ten');
+var tenThirty = $('ten-thirty');
+var eleven = $('eleven');
+var elevenThirty = $('eleven-thirty');
+var twelve = $('twelve');
+var twelveThirty = $('twelve-thirty');
+var thirteen = $('thirteen');
+var thirteenThirty = $("thirteen-thirty");
+var fourteen = $('fourteen');
+var fourteenThirty = $('fourteen-thirty');
+var fifteen = $('fifteen');
+var fifteenThirty = $('.fifteen-thirty');
+var sixteen = $('.sixteen');
+var sixteenThirty = $('.sixteen-thirty');
+var seventeen = $('.seventeen');
+var seventeenThirty = $('.seventeen-thirty');
+var eighteen = $('.eighteen');
+// var eighteenThirty
+// var nineteen
+// var nineteenThirty
+// var twenty
+// var twentyThirty
+// var twentyOne
+// var twentyOneThirty
+// var twentyTwo
+// // var twentyTwoThirty
+// var twentyThree
+// var twentThreeThirty
+// var twentyFour = $('.twentyFour')
+
+
+
+seven.on("click", changeColor7);
+var clicked7 = false;
+function changeColor7(event) {
+  event.preventDefault();
+  clicked7 = !clicked7;
+  if (clicked7) {
+    seven.css("color", "#FFFFFF");
+  } else {
+    seven.css("color", "#FFC7A0");
+  }
+}
+
+
+sevenThirty.on("click", changeColor730);
+var clicked730 = false;
+function changeColor730(event) {
+  event.preventDefault();
+  clicked730 = !clicked730;
+  if (clicked730) {
+    sevenThirty.css("color", "#FFFFFF");
+  } else {
+    sevenThirty.css("color", "#FFC7A0");
+  }
+}
+
+eight.on("click", changeColor8);
+var clicked8 = false;
+function changeColor8(event) {
+  event.preventDefault();
+  clicked8 = !clicked8;
+  if (clicked8) {
+    eight.css("color", "#FFFFFF");
+  } else {
+    eight.css("color", "#FFC7A0");
+  }
+}
+
+eightThirty.on("click", changeColor830);
+var clicked830 = false;
+function changeColor830(event) {
+  event.preventDefault();
+  clicked830 = !clicked830;
+  if (clicked830) {
+    eightThirty.css("color", "#FFFFFF");
+  } else {
+    eightThirty.css("color", "#FFC7A0");
+  }
+}
+
+nine.on("click", changeColor9);
+var clicked9 = false;
+function changeColor9(event) {
+  event.preventDefault();
+  clicked9 = !clicked9;
+  if (clicked9) {
+    nine.css("color", "#FFFFFF");
+  } else {
+    nine.css("color", "#FFC7A0");
+  }
+}
+
+nineThirty.on("click", changeColor930);
+var clicked930 = false;
+function changeColor930(event) {
+  event.preventDefault();
+  clicked930 = !clicked930;
+  if (clicked930) {
+    nineThirty.css("color", "#FFFFFF");
+  } else {
+    nineThirty.css("color", "#FFC7A0");
+  }
+}
+
+
+ten.on("click", changeColor10);
+var clicked10 = false;
+function changeColor10(event) {
+  event.preventDefault();
+  clicked10 = !clicked10;
+  if (clicked10) {
+    ten.css("color", "#FFFFFF");
+  } else {
+    ten.css("color", "#FFC7A0");
+  }
+}
+
+

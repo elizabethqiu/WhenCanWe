@@ -41,7 +41,9 @@ Day 6:
 - TBD
 
 Day 7:
-- Presentations
+- Presentation (http://bit.ly/kwk21-demo)
+- Finishing touches
+
 
 Plan and Prepare
 While planning what you will say in your demo, plan to include the following:
