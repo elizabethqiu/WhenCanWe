@@ -71,22 +71,24 @@ var eightThirty = $('.eight-thirty');
 var nine = $('.nine');
 var nineThirty = $('.nine-thirty');
 var ten = $('.ten');
-var tenThirty = $('ten-thirty');
-var eleven = $('eleven');
-var elevenThirty = $('eleven-thirty');
-var twelve = $('twelve');
-var twelveThirty = $('twelve-thirty');
-var thirteen = $('thirteen');
-var thirteenThirty = $("thirteen-thirty");
-var fourteen = $('fourteen');
-var fourteenThirty = $('fourteen-thirty');
-var fifteen = $('fifteen');
+var tenThirty = $('.ten-thirty');
+var eleven = $('.eleven');
+var elevenThirty = $('.eleven-thirty');
+var twelve = $('.twelve');
+var twelveThirty = $('.twelve-thirty');
+var thirteen = $('.thirteen');
+var thirteenThirty = $(".thirteen-thirty");
+var fourteen = $('.fourteen');
+var fourteenThirty = $('.fourteen-thirty');
+var fifteen = $('.fifteen');
 var fifteenThirty = $('.fifteen-thirty');
 var sixteen = $('.sixteen');
 var sixteenThirty = $('.sixteen-thirty');
 var seventeen = $('.seventeen');
 var seventeenThirty = $('.seventeen-thirty');
 var eighteen = $('.eighteen');
+var submit = $('.submitUseIt');
+
 // var eighteenThirty
 // var nineteen
 // var nineteenThirty
@@ -186,6 +188,29 @@ function changeColor10(event) {
   } else {
     ten.css("color", "#FFC7A0");
   }
+}
+
+eleven.on("click", changeColor11);
+var clicked11 = false;
+function changeColor11(event) {
+  event.preventDefault();
+  clicked11 = !clicked11;
+  if (clicked11) {
+    eleven.css("color", "#FFFFFF");
+  } else {
+    eleven.css("color", "#FFC7A0");
+  }
+}
+
+var display = $('.display');
+submit.on("click", displayMessage);
+
+function displayMessage(event){
+  event.preventDefault();
+  console.log("testing display");
+  var name = $('.nameuser-input').val();
+  console.log(name);
+  display.text(`Hello, ${name} — thanks for inputting your time! Please wait for your peers to input their times and you will see your matching availibility dates.`);
 }
 
 

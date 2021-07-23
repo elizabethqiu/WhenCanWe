@@ -31,6 +31,10 @@ body {
   background: #F6906C;
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FFC7A0;
+}
+
 /* .title{
   font-style: italic;
   color: #B95C3B;
@@ -52,9 +56,11 @@ h3 {
 a {
   color: #B95C3B;
 }
+
 a:hover {
   color: #FFC7A0;
 }
+
 a:link {
   text-decoration: none;
 }
@@ -75,8 +81,6 @@ a:link {
   /* width: 1700px;
   height: 600px; */
 }
-
-
 
 /* 😌 HOME SECTION 😌 */
 /* ✨ Beginning of slideshow home section */
@@ -218,21 +222,21 @@ a:link {
 .nameuser-input {
   background-color: #F6906C;
   border: 1px solid #B95C3B;
-  border-radius: 37px;
+  border-radius: 20px;
   text-align: center;
   color: #FFC7A0;
-  width: 150px;
-  height: 29px;
+  width: 180px;
+  height: 35px;
 }
 
 .date-input {
   background-color: #F6906C;
   border: 1px solid #B95C3B;
-  border-radius: 37px;
+  border-radius: 20px;
   text-align: center;
   color: #FFC7A0;
   width: 195px;
-  height: 32px;
+  height: 35px;
 }
 
 /* use it times */
@@ -244,12 +248,12 @@ a:link {
 .timesAM {
   background-color: #F6906C;
   width:1000px;
-  height:30px;
+  height:25px;
   border: 2px solid #B95C3B;
   border-radius: 200px;
   display: flex;
   justify-content: center;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 .timesPM {
@@ -260,13 +264,13 @@ a:link {
   border-radius: 200px;
   display: flex;
   justify-content: center;
-	padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .digits {
   color: #FFC7A0;
   width: 50px;
-  height:25px;
+  height: 35px;
   margin: 13px;
 	padding-bottom: 20px;
   display: flex;
@@ -276,7 +280,7 @@ a:link {
 .digits:hover {
   color: #FFFFFF;
   width: 50px;
-  height:25px;
+  height: 35px;
 }
 
 /* 😌 END OF USE IT SECTION 😌 */
@@ -293,10 +297,10 @@ a:link {
 .name-input {
   background-color: #F5F5DC;
   border: 2px solid #B95C3B;
-  color: #F6906C;
+  color: #B95C3B;
   border-radius: 20px;
-  width: 181px;
-  height: 20px;
+  width: 180px;
+  height: 35px;
   justify-content: flex-left;
   text-align: center;
 }
@@ -305,10 +309,10 @@ a:link {
   background-color: #F5F5DC;
   border: 2px solid #B95C3B;
   border-radius: 20px;
-  width: 181px;
-  height: 20px;
+  width: 180px;
+  height: 35px;
   justify-content: flex-left;
-  color:#F6906C;
+  color:#B95C3B;
   text-align: center;
 }
 
@@ -319,7 +323,8 @@ a:link {
   width: 190px;
   height: 100px;
   justify-content: flex-left;
-  color:#F6906C;
+  color:#B95C3B;
+  text-align: center;
 }
 
 .section-contactus-email {
@@ -432,7 +437,7 @@ li a:hover {
 .logo {
   /* text-align: left; */
   padding-top: 30px;
-	padding-right
+	padding-right: 100px;
 	margin-left: 100px;
 	display: flex;
 	justify-content: flex-end;
@@ -453,4 +458,8 @@ button {
 .logoAndNavBar{
 	display: flex;
 	justify-content: flex-start;
+}
+
+.display{
+  color: #B95C3B;
 }
